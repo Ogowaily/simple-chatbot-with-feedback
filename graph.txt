@@ -1,0 +1,36 @@
++---------------------+
+|  Streamlit UI       |
+|---------------------|
+| - Text input        |
+| - Submit Question   |
+| - LLM Response      |
+| - Score Slider      |
+| - Comment Box       |
+| - Send Feedback     |
++----------+----------+
+           |
+           v
++---------------------+
+|  LangServe API      |
+|---------------------|
+| Endpoint: /llm/invoke
+| Endpoint: /llm/token_feedback
++----------+----------+
+           |
+           v
++---------------------+
+|  LLM (ChatGroq)    |
+|---------------------|
+| - Receives prompt   |
+| - Generates output  |
+| - Returns feedback token
++----------+----------+
+           |
+           v
++---------------------+
+|  LangSmith Feedback |
+|---------------------|
+| - Stores user score |
+| - Stores comments   |
+| - Tracks token      |
++---------------------+

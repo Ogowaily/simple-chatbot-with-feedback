@@ -1,0 +1,21 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+ENV/
+env/
+venv
+.venv/
+.env
+# Excalidraw files (لو مش عايز ترفعها)
+*.excalidraw
+*.Excalidraw
+# Streamlit temporary files
+.streamlit/
+
+# OS files
+.DS_Store
+Thumbs.db
